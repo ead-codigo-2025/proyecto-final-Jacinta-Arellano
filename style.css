@@ -123,6 +123,55 @@ header {
   line-height: 1.6;
 }
 
+.contacto {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2rem;
+  color: #8B0000;
+  margin-bottom: 1.5rem;
+}
+
+.contacto-contenido p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.info-contacto {
+  margin-top: 2rem;
+  background: #f4f4f4; 
+  border: 2px solid #8B0000; 
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-contacto:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.info-contacto p {
+  margin: 0.8rem 0;
+}
+
+.info-contacto a {
+  color: #8B0000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-contacto a:hover {
+  color: #A32121;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
